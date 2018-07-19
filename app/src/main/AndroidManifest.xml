@@ -31,13 +31,13 @@
         <activity android:name=".Registration"
             android:label="Registration Department"/>
         <activity android:name=".Sepu"
-        android:label="SEPU Department"/>
+            android:label="SEPU Department"/>
         <activity android:name=".Store"
-        android:label="Stores Department"/>
+            android:label="Stores Department"/>
         <activity android:name=".Ushering"
             android:label="Ushering Department"/>
         <activity android:name=".Welfare"
-        android:label="Welfare Department"/>
+            android:label="Welfare Department"/>
         <activity android:name=".General"
             android:label="Other Departments"/>
     </application>

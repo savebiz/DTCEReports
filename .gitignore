@@ -8,4 +8,9 @@
 /build
 /captures
 .externalNativeBuild
+<<<<<<< a3816766330f7ed5097de8bd0c4a65b06df96995
 .idea/ 
+=======
+>>>>>>> Initial commit
+*.idea/ 
+.idea/misc.xml 

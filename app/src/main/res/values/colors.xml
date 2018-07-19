@@ -22,5 +22,6 @@
     <color name="primaryText">#212121</color>
     <color name="secondaryText">#727272</color>
     <color name="boarder">#ece8e8</color>
+
     <color name="yellow">#ffb300</color>
 </resources>
