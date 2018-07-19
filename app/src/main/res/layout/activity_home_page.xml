@@ -100,14 +100,4 @@
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.767" />
     </LinearLayout>
-
-
-
-
-
-
-<<<<<<< c3b61860935d5fde844d39130c9d1c75213403a1
 </android.support.constraint.ConstraintLayout>
-=======
-</android.support.constraint.ConstraintLayout>
->>>>>>> Initial commit work still in Progress
