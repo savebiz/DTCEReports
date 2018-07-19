@@ -37,6 +37,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <android.support.v7.widget.CardView
+                    android:id="@+id/bibleStudy"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
@@ -83,6 +84,7 @@
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
+                    android:id="@+id/welfare"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
@@ -109,7 +111,7 @@
                             android:layout_height="wrap_content"
                             android:textStyle="bold"
                             android:layout_marginTop="10dp"
-                            android:text="Protocol"/>
+                            android:text="Welfare"/>
                         <View
                             android:layout_width="match_parent"
                             android:layout_height="1dp"
@@ -137,6 +139,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <android.support.v7.widget.CardView
+                    android:id="@+id/store"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
@@ -183,6 +186,7 @@
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
+                    android:id="@+id/medical"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
@@ -237,6 +241,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <android.support.v7.widget.CardView
+                    android:id="@+id/registration"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
@@ -283,6 +288,7 @@
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
+                    android:id="@+id/general"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
@@ -337,6 +343,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <android.support.v7.widget.CardView
+                    android:id="@+id/sepu"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
@@ -383,6 +390,7 @@
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
+                    android:id="@+id/ushering"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
@@ -437,6 +445,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content">
                 <android.support.v7.widget.CardView
+                    android:id="@+id/holyLand"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
@@ -483,6 +492,7 @@
                 </android.support.v7.widget.CardView>
 
                 <android.support.v7.widget.CardView
+                    android:id="@+id/programme"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:clickable="true"
