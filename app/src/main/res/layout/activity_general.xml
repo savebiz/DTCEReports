@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    tools:context="com.example.android.dtcereports.MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/general"
+            android:padding="@dimen/activity_vertical_margin"
+            android:textColor="@color/primaryText"
+            android:textSize="20sp"/>
+
+        <TextView
+            android:id="@+id/department"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Select department"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_below="@id/tv"
+            />
+
+        <Spinner
+            android:id="@+id/select_dept"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tv"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_toRightOf="@id/department"
+            android:layout_toEndOf="@id/department">
+
+        </Spinner>
+
+        <TextView
+            android:id="@+id/date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Today's date"
+            android:layout_margin="@dimen/activity_vertical_margin"
+            android:layout_below="@id/select_dept"
+            />
+
+        <EditText
+            android:id="@+id/select_date"
+            android:layout_width="84dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/select_dept"
+            android:textAllCaps="false"
+            android:layout_marginBottom="@dimen/activity_vertical_margin"
+            android:layout_marginEnd="@dimen/activity_vertical_margin"
+            android:layout_marginRight="@dimen/activity_vertical_margin"
+            android:layout_marginStart="@dimen/activity_vertical_margin"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/date"
+            android:layout_toEndOf="@id/date"
+            android:onClick="openDateSelector">
+
+        </EditText>
+
+        <TextView
+            android:id="@+id/general_one"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/general_one"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_below="@id/select_date"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:id="@+id/edit_text1"
+            android:textColor="@color/secondaryText"
+            android:typeface="serif"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:inputType="text|textMultiLine"
+            android:gravity="top"
+            android:scrollbars="vertical"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="4dp"
+            android:layout_below="@id/general_one"
+            android:background="@color/boarder"/>
+
+        <TextView
+            android:id="@+id/general_two"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/general_two"
+            android:layout_below="@id/edit_text1"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:id="@+id/edit_text2"
+            android:textColor="@color/secondaryText"
+            android:typeface="serif"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:inputType="text|textMultiLine"
+            android:gravity="top"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="4dp"
+            android:scrollbars="vertical"
+            android:layout_below="@id/general_two"
+            android:background="@color/boarder"/>
+
+        <TextView
+            android:id="@+id/general_three"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/general_three"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:layout_below="@id/edit_text2"
+            android:layout_marginTop="16dp"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:id="@+id/edit_text3"
+            android:textColor="@color/secondaryText"
+            android:typeface="serif"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:inputType="text|textMultiLine"
+            android:gravity="top"
+            android:scrollbars="vertical"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/general_three"
+            android:background="@color/boarder"/>
+
+        <TextView
+            android:id="@+id/general_four"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/general_four"
+            android:layout_below="@id/edit_text3"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:textSize="20sp"/>
+
+        <EditText
+            android:layout_marginLeft="@dimen/activity_vertical_margin"
+            android:id="@+id/edit_text"
+            android:textColor="@color/secondaryText"
+            android:typeface="serif"
+            android:layout_width="fill_parent"
+            android:layout_height="150dp"
+            android:inputType="text|textMultiLine"
+            android:gravity="top"
+            android:scrollbars="vertical"
+            android:layout_marginBottom="16dp"
+            android:layout_marginTop="16dp"
+            android:layout_below="@id/general_four"
+            android:background="@color/boarder"/>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.dtcereports">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="DTCE Reports"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomePage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity"
+            android:label="DTCE Reports - Convention 2018"
+            android:theme="@style/AppTheme.TransparentTheme">
+        </activity>
+        <activity android:name=".BibleStudy"
+            android:label="Bible Study Department"/>
+        <activity android:name=".HolyLand"
+            android:label="Holy Land Department"/>
+        <activity android:name=".Medical"
+            android:label="Medical Department"/>
+        <activity android:name=".Programmes"
+            android:label="Programmes Department"/>
+        <activity android:name=".Registration"
+            android:label="Registration Department"/>
+        <activity android:name=".Sepu"
+        android:label="SEPU Department"/>
+        <activity android:name=".Store"
+        android:label="Stores Department"/>
+        <activity android:name=".Ushering"
+            android:label="Ushering Department"/>
+        <activity android:name=".Welfare"
+        android:label="Welfare Department"/>
+        <activity android:name=".General"
+            android:label="Other Departments"/>
+    </application>
+
+</manifest>

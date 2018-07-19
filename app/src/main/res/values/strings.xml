@@ -1,0 +1,38 @@
+<resources>
+    <!-- Category name for SEPU department [CHAR LIMIT=20] -->
+    <string name="category_sepu">Sepu</string>
+    <!-- Category name for Medicals department [CHAR LIMIT=20] -->
+    <string name="category_medical">Medical</string>
+    <!-- Category name for Holy Land department [CHAR LIMIT=20] -->
+    <string name="category_holy">Holy Land</string>
+    <!-- Category name for Bible Study department [CHAR LIMIT=20] -->
+    <string name="category_bible">Bible Study</string>
+    <!-- Category name for Programmes department [CHAR LIMIT=20] -->
+    <string name="category_program">Programme</string>
+    <!-- Category name for Registration department [CHAR LIMIT=20] -->
+    <string name="category_registration">Registration</string>
+    <!-- Category name for Stores department [CHAR LIMIT=20] -->
+    <string name="category_store">Store</string>
+    <!-- Category name for Ushering department [CHAR LIMIT=20] -->
+    <string name="category_usher">Ushering</string>
+    <!-- Category name for Welfare department [CHAR LIMIT=20] -->
+    <string name="category_welfare">Welfare</string>
+    <!-- Category name for other departments [CHAR LIMIT=20] -->
+    <string name="category_others">General</string>
+    <string name="intro">Select your department</string>
+    <string name="bible_study">Report on Bible Study activities for Today</string>
+    <string name="general">Report on your departmental activities for Today</string>
+    <string name="holy_land">Report on Holy Land activities for Today</string>
+    <string name="Medical">Report on Medical activities for Today</string>
+    <string name="programmes">Report on Teens Programmes activities for Today</string>
+    <string name="registration">Report on Registration activities for Today</string>
+    <string name="sepu">Report on Safety and Environmental activities for Today</string>
+    <string name="store">Report on Stores activities for Today</string>
+    <string name="ushering">Report on Ushering activities for Today</string>
+    <string name="welfare">Report on Welfare activities for Today</string>
+    <string name="general_one">Significant achievements, events, developments and progress of work for the day:</string>
+    <string name="general_two">Challenges (Description of problems encountered and reasons for such):</string>
+    <string name="general_three">Recommendations/Suggestions:</string>
+    <string name="general_four">Additional Comments/Statistics:</string>
+</resources>
+
